@@ -1,0 +1,147 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html{
+
+}
+
+body{
+  width: 1200px;
+
+}
+
+
+header{
+  width: 1200px;
+  height: 80px;
+  background-color: #000;
+  line-height: 80px;
+  margin-top: 5px;
+  margin-left: auto;
+
+
+}
+
+.logo{
+  width: 400px;
+  float: left;
+  padding-left: 30px;
+
+
+}
+
+.logo img{
+  width: 136px;
+}
+.navbar{
+  width: 800px;
+  float: right;
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  padding-left: 30px;
+
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+}
+
+.navbar ul li a:hover{
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+/* Category */
+.row{
+  width: 1200px;
+}
+.left-category{
+  display: inline-block;
+  width: 200px;
+  height: 700px;
+  background-color: gray;
+  position: absolute;
+  left: 100px;
+  padding-top: 30px;
+
+
+}
+
+.left-category h2{
+  text-align: center;
+  font-size: 30px;
+
+
+}
+
+
+.categories-nav ul{
+  list-style: none;
+  margin-top: 20px;
+
+}
+
+.categories-nav ul li{
+
+  text-align: center;
+
+}
+
+
+.categories-nav ul li a {
+  text-decoration: none;
+  line-height:40px;
+  color: blue;
+  font-size: 20px;
+}
+
+.categories-nav ul li a:hover{
+  color: white;
+  font-size: 25px;
+
+}
+
+
+.items{
+  width:1000px;
+  background-color: yellow;
+
+}
+
+
+
+footer{
+  width: 1200px;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  margin-left:auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+
+.whole_site_width{
+  width: 750px;
+  margin-left: 100px;
+}
+
+section{
+
+  width: 1200px;
+  height: 700px;
+  background-color: #f0932b;
+
+
+}
